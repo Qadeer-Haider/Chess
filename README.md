@@ -32,6 +32,9 @@ This project is a console-based chess game implemented in C++ that allows two pl
 
 ## Game Initialization
 
+<img width="1000" src="assets/Intial Screen.PNG" alt="Intail Screen"/>
+
+
 ### Setting Up the Board
 
 The board is represented as an 8x8 grid with each cell containing information about the piece occupying it, if any.
@@ -49,6 +52,8 @@ Variables to keep track of the current player, move history, and game state are 
 ### Displaying the Board
 
 The board is displayed in the console with pieces represented by their standard chess notation (e.g., 'K' for king, 'Q' for queen).
+
+<img width="1000" src="assets/Intial Board.PNG" alt="Intail Screen"/>
 
 ### Accepting and Processing Player Input
 
@@ -72,6 +77,8 @@ The game continuously checks for checkmate, stalemate, and draw conditions to de
 
 Each type of piece has its own movement rules, which are enforced by the game.
 
+<img width="1000" src="assets/Possible Moves.PNG" alt="Intail Screen"/>
+
 ### Detecting and Preventing Illegal Moves
 
 The game ensures that no illegal moves are made, such as moving a piece into a position that would leave the player's king in check.
@@ -85,6 +92,8 @@ Special moves such as castling, en passant, and pawn promotion are implemented a
 ### Identifying Checks, Checkmates, and Stalemates
 
 The game identifies when a king is in check and determines if the check leads to checkmate or stalemate.
+
+<img width="1000" src="assets/King Danger.PNG" alt="Intail Screen"/>
 
 ### Updating the Game State
 
